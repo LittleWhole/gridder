@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 import type { PhotoItem, GridConfig } from '../types';
-import { renderGrid, cellSize, computeLayout, drawPhotoInCell, type CellLayout } from '../utils/imageUtils';
+import { renderGrid, cellSize, computeLayout, drawPhotoInCell } from '../utils/imageUtils';
 
 interface Props {
   photos: PhotoItem[];
